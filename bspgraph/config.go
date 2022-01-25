@@ -2,8 +2,8 @@ package bspgraph
 
 import (
 	multierror "github.com/hashicorp/go-multierror"
+	"github.com/virsel/work_scheduling/bspgraph/message"
 	"golang.org/x/xerrors"
-	"work_scheduling/bspgraph/message"
 )
 
 // GraphConfig encapsulates the configuration options for creating graphs.

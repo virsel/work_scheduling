@@ -1,4 +1,4 @@
-module work_scheduling
+module github.com/virsel/work_scheduling
 
 go 1.17
 

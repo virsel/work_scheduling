@@ -1,11 +1,11 @@
 package bspgraph
 
 import (
+	"github.com/virsel/work_scheduling/bspgraph/message"
 	"sync"
 	"sync/atomic"
 
 	"golang.org/x/xerrors"
-	"work_scheduling/bspgraph/message"
 )
 
 var (

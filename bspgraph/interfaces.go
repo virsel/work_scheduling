@@ -1,7 +1,7 @@
 package bspgraph
 
 import (
-	"work_scheduling/bspgraph/message"
+	"github.com/virsel/work_scheduling/bspgraph/message"
 )
 
 // Aggregator is implemented by types that provide concurrent-safe aggregation

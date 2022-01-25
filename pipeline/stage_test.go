@@ -3,11 +3,11 @@ package pipeline_test
 import (
 	"context"
 	"fmt"
+	"github.com/virsel/work_scheduling/pipeline"
 	"sort"
 	"time"
 
 	gc "gopkg.in/check.v1"
-	"work_scheduling/pipeline"
 )
 
 var _ = gc.Suite(new(StageTestSuite))

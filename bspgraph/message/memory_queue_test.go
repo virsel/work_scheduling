@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/virsel/work_scheduling/bspgraph/message"
 	gc "gopkg.in/check.v1"
-	"work_scheduling/bspgraph/message"
 )
 
 var _ = gc.Suite(new(InMemoryQueueTest))

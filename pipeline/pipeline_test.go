@@ -3,11 +3,11 @@ package pipeline_test
 import (
 	"context"
 	"fmt"
+	"github.com/virsel/work_scheduling/pipeline"
 	"testing"
 
 	"golang.org/x/xerrors"
 	gc "gopkg.in/check.v1"
-	"work_scheduling/pipeline"
 )
 
 var _ = gc.Suite(new(PipelineTestSuite))

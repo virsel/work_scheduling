@@ -1,4 +1,5 @@
 syntax="proto3";
+option go_package = "../proto";
 package proto;
 
 import "google/protobuf/timestamp.proto";
@@ -107,4 +108,3 @@ service JobQueue {
   // workers.
   rpc JobStream(stream WorkerPayload) returns (stream MasterPayload);
 }
-
